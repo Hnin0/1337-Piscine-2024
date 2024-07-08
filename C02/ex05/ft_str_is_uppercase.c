@@ -6,7 +6,7 @@
 /*   By: yimazzi <yimazzi@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/06 15:08:18 by yimazzi           #+#    #+#             */
-/*   Updated: 2024/07/08 11:37:09 by yimazzi          ###   ########.fr       */
+/*   Updated: 2024/07/08 15:23:15 by yimazzi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 int	ft_str_is_uppercase(char *str)
@@ -16,7 +16,7 @@ int	ft_str_is_uppercase(char *str)
 	i = 0;
 	while (str[i] != '\0' )
 	{
-		if (!(stri[i] >= 'A' && str[i] <= 'Z' ))
+		if (!(str[i] >= 'A' && str[i] <= 'Z' ))
 		{
 			return (0);
 		}

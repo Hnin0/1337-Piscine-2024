@@ -6,7 +6,7 @@
 /*   By: yimazzi <yimazzi@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/07 14:26:53 by yimazzi           #+#    #+#             */
-/*   Updated: 2024/07/08 11:39:15 by yimazzi          ###   ########.fr       */
+/*   Updated: 2024/07/08 15:23:51 by yimazzi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 char	*ft_strlowcase(char *str)
@@ -18,7 +18,7 @@ char	*ft_strlowcase(char *str)
 	{
 		if (str[i] >= 'A' && str[i] <= 'Z' )
 		{
-			srt[i] += 32;
+			str[i] += 32;
 		}
 		i++;
 	}
